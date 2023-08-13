@@ -2,6 +2,8 @@ import {createApi, fetchBaseQuery} from "@reduxjs/toolkit/query/react";
 import {IRecipe} from "../../types/recipe.types";
 
 const API_URL = 'http://localhost:4200/recipes'
+//json-server db.json --port 4200 --watch
+
 
 export const api = createApi({
     reducerPath: 'api',
